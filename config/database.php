@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql-bolsa_empleo'),
 
     /*
     |--------------------------------------------------------------------------
@@ -63,7 +63,7 @@ return [
             ]) : [],
         ],
 
-        'pgsql-ignug' => [
+        'pgsql-bolsa_empleo' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
